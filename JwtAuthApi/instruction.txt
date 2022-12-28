@@ -1,0 +1,12 @@
+﻿/*The following command is for pwoershell to get token*/
+
+$body = '{"Username": "will", "Password": "123"}'
+$header = @{ "Content-Type"="application/json" }
+
+Invoke-RestMethod -Uri "https://localhost:7105/signin" -Method 'Post' -Body $body -Headers $header | ConvertTo-Json
+
+
+/*once get token, use the following command to luanch the request with token*/
+$token =''
+$headers = @{Authorization="Bearer $token"}
+Invoke-RestMethod -Uri "https://localhost:7105/claims" -Method 'Get' -Headers $header | ConvertTo-Json

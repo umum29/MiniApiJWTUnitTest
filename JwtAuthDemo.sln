@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthApi", "JwtAuthApi\JwtAuthApi.csproj", "{364D47F3-FDC0-4674-B8CE-B27C38FC110C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApiTest", "MiniApiTest\MiniApiTest.csproj", "{C657EC81-203F-47BA-A001-696BE0F9D72E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{364D47F3-FDC0-4674-B8CE-B27C38FC110C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364D47F3-FDC0-4674-B8CE-B27C38FC110C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364D47F3-FDC0-4674-B8CE-B27C38FC110C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364D47F3-FDC0-4674-B8CE-B27C38FC110C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C657EC81-203F-47BA-A001-696BE0F9D72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C657EC81-203F-47BA-A001-696BE0F9D72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C657EC81-203F-47BA-A001-696BE0F9D72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C657EC81-203F-47BA-A001-696BE0F9D72E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68F69F8-1080-413B-B071-CA3B3B72893D}
+	EndGlobalSection
+EndGlobal
